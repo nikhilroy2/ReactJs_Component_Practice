@@ -1,0 +1,10 @@
+.custom_row_list .list-group-item {
+  border: none;
+  padding: 6px 0px;
+}
+
+.custom_row_list .list-group-item > a {
+  color: #7a7d85;
+  font-size: 100%;
+}
+/*# sourceMappingURL=style.css.map */
