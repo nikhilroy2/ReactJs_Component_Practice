@@ -6,6 +6,7 @@ function Fiver_Footer() {
         <Fragment>
             <footer>
                 <div className="container-xl">
+                    <h2 className="text-center text-primary">Fiverr Learning Component</h2>
                     <div className="row row-cols-lg-5 row-cols-md-3 row-cols-1 custom_row_list">
                         <div className="col h-auto p-0">
                             <div className="wrapper m-1 p-3 shadow-sm rounded-lg h-100">
