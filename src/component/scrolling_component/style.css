@@ -1,0 +1,27 @@
+
+.scroll_height{
+    height: 3000px;
+}
+.line{
+    width: 100%;
+    display: block;
+    height: 10px;
+    background: #000;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.line span{
+    position: absolute;
+    height:100%;
+    left: 0;
+    width: 10px;
+    background: red;
+}
+svg{
+    top: 0;
+    left: 0;
+
+}

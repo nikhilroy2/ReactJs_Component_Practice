@@ -1,0 +1,64 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sofash_wrapper {
+  overflow: hidden;
+}
+
+.sofash_wrapper .head {
+  text-align: center;
+  height: 70vmin;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  margin: 0 -6rem;
+  -webkit-animation: 3s linear  infinite headRound alternate;
+          animation: 3s linear  infinite headRound alternate;
+}
+
+@-webkit-keyframes headRound {
+  0% {
+    border-radius: 0 0 0% 0%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6A6DC6), to(#3E42A2)) right top/100% 95%;
+    background: linear-gradient(#6A6DC6, #3E42A2) right top/100% 95%;
+  }
+  100% {
+    border-radius: 0 0 130% 130%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6A6DC6), to(#3E42A2)) left top/100% 100%;
+    background: linear-gradient(#6A6DC6, #3E42A2) left top/100% 100%;
+  }
+}
+
+@keyframes headRound {
+  0% {
+    border-radius: 0 0 0% 0%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6A6DC6), to(#3E42A2)) right top/100% 95%;
+    background: linear-gradient(#6A6DC6, #3E42A2) right top/100% 95%;
+  }
+  100% {
+    border-radius: 0 0 130% 130%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6A6DC6), to(#3E42A2)) left top/100% 100%;
+    background: linear-gradient(#6A6DC6, #3E42A2) left top/100% 100%;
+  }
+}
+
+.sofash_wrapper .col-wrapper {
+  padding: 1rem;
+  background: #E8E8E8;
+  margin: 10px;
+}
+/*# sourceMappingURL=sofash.css.map */

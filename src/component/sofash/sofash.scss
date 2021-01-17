@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.sofash_wrapper{
+    overflow: hidden;
+    .head{
+        text-align: center;
+        height: 70vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        margin: 0 -6rem;
+        animation: 3s linear  infinite headRound alternate;
+        @keyframes headRound {
+            0%{
+                border-radius: 0 0 0% 0%;
+                background: linear-gradient(#6A6DC6, #3E42A2) right top/ 100% 95% 
+                
+            }
+            100%{
+                border-radius: 0 0 130% 130%;
+                background: linear-gradient(  #6A6DC6, #3E42A2) left top/ 100% 100% 
+
+            }
+        }
+    }
+    .col-wrapper{
+        padding: 1rem;
+        background: #E8E8E8;
+        margin: 10px;
+        
+    }
+}
