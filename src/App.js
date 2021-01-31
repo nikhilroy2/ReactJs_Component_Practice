@@ -1,12 +1,22 @@
-import Fiver_Footer from './component/fiverr_component/footer';
-import Scrolling from './component/scrolling_component/scrolling';
-import Sofash from './component/sofash/sofash';
+import React, { Fragment } from 'react';
+import {
+  MDBBadge,
+  MDBBtn,
+  MDBCol,
+  MDBRow,
+  MDBContainer,
+  MDBCard,
+  MDBCardBody,
+} from 'mdb-react-ui-kit';
+
+import PayonnerLogin from './component/payoneer_login/payoneer_login'
+
 function App() {
   return (
-    <div className="App">
-      {/* <Scrolling/> */}
-     <Sofash/>
-    </div>
+    <Fragment>
+      <PayonnerLogin>
+      </PayonnerLogin>
+    </Fragment>
   );
 }
 

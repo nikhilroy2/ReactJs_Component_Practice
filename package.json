@@ -10,6 +10,8 @@
     "bootstrap": "^4.5.3",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
+    "mdb-react-ui-kit": "^1.0.0-alpha1",
+    "mdbreact": "^5.0.1",
     "node-sass": "^5.0.0",
     "path": "^0.12.7",
     "react": "^17.0.1",
